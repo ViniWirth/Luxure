@@ -408,6 +408,8 @@ footer {
       footer p{
         margin-bottom: 2vw;
         text-align: center;
+        display: flex;
+        flex-direction:column;
       }
 
       .dentroImagemAcessorios{
@@ -612,6 +614,8 @@ footer {
         margin-bottom: 2vw;
         text-align: center;
         justify-content: space-between;
+        display: flex;
+        flex-direction:column;
       }
 
       #produtosCimaDiv{
