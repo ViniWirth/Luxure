@@ -1,0 +1,704 @@
+#slogan{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2vw;
+}
+
+header{
+    background-color: #FEEDE4;
+    border: 0;
+    width: 100%;
+    display: flex;
+    height: 6vw; 
+}
+
+#logo1{
+    width: 33%;
+    margin-top: 0.45vw;
+}
+
+#logo1:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+*{/*outline: 0.1px solid red;
+    outline-offset: -1px;*/
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#sloganDiv{
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#coisinhasDiv{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+#logoDiv a{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#simboloLogin{
+    width: 1.5vw;
+}
+
+#simboloSacola{
+    width: 1.85vw;
+}
+
+#simboloSacola:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+#simboloLogin:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+#pesquisasDiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FEEDE4;
+    height: 2vw;
+    align-items: center;
+    font-size: 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 2px;
+}
+
+#produtosCimaDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vw;
+}
+
+.card{
+    width: 25vw;
+    background-color: #e9e9e93b;
+    border: 0.01vw solid black;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+#produtosBaixoDiv{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vw;
+    margin-bottom: 2.5vw;
+}
+
+.descricao{  
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.preco{  
+    text-align: center;
+    font-size: 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.joiasTexto:hover {
+    transform: scale(0.99);
+    transition: transform 0.2s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#footerDiv{
+    margin-left: 5vw;
+    font-size: 85%;
+    margin-top: 1vw;
+}
+
+footer {
+    background-color: #FEEDE4;
+    color: #000;
+    padding: 20px;  
+    box-shadow: 2px 0px 3px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  ul li {
+    margin-left: 10px;
+  }
+  
+  ul li:first-child {
+    margin-left: 0;
+  }
+  
+  ul li a {
+    color: #000;
+    text-decoration: none;
+  }
+
+#imagensPrincipaisDiv{
+    display: flex;
+    overflow-x: scroll;
+    margin-top: 2vw;
+}
+
+#imgPrincipal{
+    margin-right: 1vw;
+    margin-left: 1vw; 
+}
+
+#imagensPrincipaisDiv img{
+    width: 50%;
+    display: flex;
+}
+
+#imagemEGifDiv{
+    display: flex;
+    width: 100%;    
+}
+
+#imgRelogioDourado{
+    width: 100%;
+}
+
+.swiffy-slider{
+    overflow: hidden;
+    margin-top: 0.01vw;
+    margin-bottom: 0;
+}
+
+.dentroImagem{
+    position: absolute;
+    color: #FEEDE4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin-left: 6vw;
+    margin-top: 8vw;
+    margin-right: 65vw;
+    font-size: 115%;
+}
+
+#paginaInicial{
+    background-color: #FEEDE4;
+}
+
+#lancamentosDiv{
+    position: absolute;
+    color: #FEEDE4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    z-index: 1;
+    margin-top: 2vw;
+    width: 100%;
+}
+
+#lancamentosDiv h2{
+    text-align: center;
+    font-size: 2.5VW;
+}
+
+#formulario{
+    margin: 5vw;
+    text-align: center;
+
+}
+
+#formulario input{
+    border: 0.1vw solid black;
+    border-radius: 1vw;
+    width: 100%;
+    padding: 0.8vw;
+    margin-bottom: 0.5vw;
+}
+
+.containerForm{
+    max-width: 650px;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+#botao{
+    display: inline-block;
+    background-color: #FEEDE4;
+    border-radius: 1vw;
+    width: 7vw;
+    height: 3vw;
+    margin-top: 1vw;
+    border: 0.1vw solid black;
+    cursor: pointer;
+}
+
+#botao:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+#informacoes{
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: -2vw;
+}
+
+#botaoLogin{
+    display: inline-block;
+    background-color: #FEEDE4;
+    border-radius: 1vw;
+    width: 7vw;
+    height: 3vw;
+    margin-top: 1vw;
+    border: 0.1vw solid black;
+    cursor: pointer;
+    margin-bottom: 6.91vw;
+}
+
+#botaoLogin:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+#imgAcessoriosDiv{
+    margin-top: 0.25vw;
+}
+
+#imgAcessorios{
+    width: 100%;
+}
+
+.dentroImagemAcessorios{
+    position: absolute;
+    color: #FEEDE4;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 180%;
+    z-index: 1;
+    margin-top: 15vw;
+    margin-left: 5vw;
+    margin-right: 50vw;
+}
+
+@media screen and (max-width:768px)
+{
+    #slogan {
+        font-family: 'Dancing Script', cursive;
+        font-size: 4vw;
+        margin-left: 2.5vw;
+    }
+
+    header {
+        background-color: #FEEDE4;
+        border: 0;
+        width: 100%;
+        display: flex;
+        height: 15vw;
+    }
+
+    #logo1 {
+        width: 39vw;
+    }
+
+    #coisinhasDiv {
+        width: 33%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    #logoDiv a {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    #simboloLogin {
+        width: 4.5vw;
+    }
+
+    #simboloSacola {
+        width: 5.5vw;
+    }
+
+    #pesquisasDiv {
+        display: flex;
+        justify-content: space-around;
+        background-color: #FEEDE4;
+        height: 7vw;
+        align-items: center;
+        font-size: 4vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        box-shadow: 0 0 2px;
+    }
+
+    .dentroImagem{
+        position: absolute;
+        color: #FEEDE4;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        margin-left: 6vw;
+        margin-top: 8vw;
+        margin-right: 65vw;
+        font-size: 3vw;
+    }
+
+    #lancamentosDiv{
+        position: absolute;
+        color: #FEEDE4;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        z-index: 1;
+        margin-top: 2vw;
+        width: 100%;
+    }
+    
+    #lancamentosDiv h2{
+        text-align: center;
+        font-size: 5vw;
+    }
+
+    #footerDiv{
+        margin-left: 5vw;
+        font-size: 85%;
+        margin-top: 1vw;
+    }
+    
+    footer {
+        background-color: #FEEDE4;
+        color: #000;
+        padding:5vw;  
+        box-shadow: 2px 0px 3px black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+      
+      .container {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      #ulFooter{
+        list-style-type: none;
+        justify-content: space-around;
+      }
+
+
+      footer p{
+        margin-bottom: 2vw;
+        text-align: center;
+      }
+
+      .dentroImagemAcessorios{
+        position: absolute;
+        color: #FEEDE4;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        font-size: 110%;
+        z-index: 1;
+        margin-top: 15vw;
+        margin-left: 5vw;
+        margin-right: 50vw;
+    }
+
+    #produtosCimaDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3vw;
+    }
+    
+    .card{
+        width: 80%;
+        background-color: #e9e9e93b;
+        border: 0.01vw solid black;
+        cursor: pointer;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    }
+    
+    #produtosBaixoDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3vw;
+    }
+    
+    .descricao{  
+        text-align: center;
+        font-size: 5vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .preco{  
+        text-align: center;
+        font-size: 5vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 10vw;
+    }
+
+    #formulario{
+        margin: 5vw;
+        text-align: center;
+    }
+    
+    #formulario input{
+        border: 0.1vw solid black;
+        border-radius: 1vw;
+        width: 100%;
+        padding: 0.8vw;
+        margin-bottom: 0.5vw;
+        margin-top: 8vw;
+        height: 7vw;
+    }
+    
+    .containerForm{
+        max-width: 750px;
+        margin: 0 auto;
+        position: relative;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    }
+    
+    #botaoLogin{
+        display: inline-block;
+        background-color: #FEEDE4;
+        border-radius: 4vw;
+        width: 18vw;
+        height: 10vw;
+        margin-top: 4vw;
+        border: 0.1vw solid black;
+        cursor: pointer;
+        margin-bottom: 60vw;
+    }
+
+    #informacoes{
+        text-align: center;
+        margin-top: 15vw;
+        margin-bottom: 4vw;
+    }
+
+    #botao{
+        display: inline-block;
+        background-color: #FEEDE4;
+        border-radius: 3vw;
+        width: 19vw;
+        height: 7vw;
+        margin-top: 5vw;
+        border: 0.1vw solid black;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1000px)
+{
+    #slogan{
+        font-family: 'Dancing Script', cursive;
+        font-size: 3vw;
+        margin-left: 2.5vw;
+    }
+    
+    header{
+        background-color: #FEEDE4;
+        border: 0;
+        width: 100%;
+        display: flex;
+        height: 8.5vw; 
+    }
+    
+    #coisinhasDiv{
+        width: 33%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around; 
+    }
+    
+    #logoDiv a{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: -1.4vw;
+        margin-left: 2.3vw;
+    }
+
+    #logo1{
+        width: 28vw;
+    }
+
+    #simboloLogin{
+        width: 3vw;
+    }
+    
+    #simboloSacola{
+        width: 3.4vw;
+    }
+
+    #pesquisasDiv{
+        display: flex;
+        justify-content: space-around;
+        background-color: #FEEDE4;
+        height: 4vw;
+        align-items: center;
+        font-size: 2.3vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        box-shadow: 0 0 2px;
+    }
+
+    #lancamentosDiv{
+        position: absolute;
+        color: #FEEDE4;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+        z-index: 1;
+        margin-top: 2vw;
+        width: 100%;
+    }
+    
+    #lancamentosDiv h2{
+        text-align: center;
+        font-size: 3.5vw;
+    }
+
+    #footerDiv{
+        margin-left: 5vw;
+        font-size: 85%;
+        margin-top: 1vw;
+    }
+    
+    footer {
+        background-color: #FEEDE4;
+        color: #000;
+        padding:5vw;  
+        box-shadow: 2px 0px 3px black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+      }
+      
+      .container {
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+      }
+      
+      #ulFooter{
+        list-style-type: none;
+        justify-content: space-between;
+        padding: 3vw;
+        text-align: center;
+      }
+
+      footer p{
+        margin-bottom: 2vw;
+        text-align: center;
+        justify-content: space-between;
+      }
+
+      #produtosCimaDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3vw;
+    }
+    
+    .card{
+        width: 45%;
+        background-color: #e9e9e93b;
+        border: 0.01vw solid black;
+        cursor: pointer;
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+    }
+    
+    #produtosBaixoDiv{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 3vw;
+    }
+    
+    .descricao{  
+        text-align: center;
+        font-size: 3vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .preco{  
+        text-align: center;
+        font-size: 3vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-bottom: 10vw;
+    }
+
+    #formulario{
+        margin: 5vw;
+        text-align: center;
+    }
+    
+    #formulario input{
+        border: 0.1vw solid black;
+        border-radius: 1vw;
+        width: 100%;
+        padding: 0.8vw;
+        margin-bottom: 0.5vw;
+        margin-top: 11vw;
+        height: 5vw;
+    }
+    
+    .containerForm{
+        max-width: 750px;
+        margin: 0 auto;
+        position: relative;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    }
+    
+    #botaoLogin{
+        display: inline-block;
+        background-color: #FEEDE4;
+        border-radius: 4vw;
+        width: 18vw;
+        height: 10vw;
+        margin-top: 4vw;
+        border: 0.1vw solid black;
+        cursor: pointer;
+        margin-bottom: 60vw;
+    }
+
+    #informacoes{
+        text-align: center;
+        margin-top: 15vw;
+        margin-bottom: 4vw;
+    }
+
+    #botao{
+        display: inline-block;
+        background-color: #FEEDE4;
+        border-radius: 3vw;
+        width: 19vw;
+        height: 7vw;
+        margin-top: 5vw;
+        border: 0.1vw solid black;
+        cursor: pointer;
+    }
+}
